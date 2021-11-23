@@ -1,0 +1,93 @@
+.page-body {
+  font-family: "Nunito", sans-serif;
+  background-color: #f3f1f5;
+}
+
+.container-fluid {
+  background-color: #f0d9ff;
+}
+
+button.navbar-toggler {
+  background-color: #bfa2db;
+}
+
+button.btn {
+  background-color: #bfa2db;
+}
+
+a.navbar-brand {
+  font-weight: bolder;
+  padding: 10px;
+}
+
+a.nav-link {
+  font-weight: bold;
+  padding: 10px;
+}
+
+#main-doc {
+  font-family: "Nunito", sans-serif;
+  background-color: #f3f1f5;
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#main-doc a {
+  color: black;
+}
+
+#main-doc a:hover {
+  color: #ff87ca;
+}
+
+#main-doc h1 {
+  font-size: 3.8rem;
+  padding: 30px 30px 30px 0;
+  font-weight: bold;
+  color: #3e065f;
+}
+
+#main-doc h3 {
+  font-size: 2rem;
+  padding: 15px 15px 15px 0;
+  font-weight: bold;
+  color: #3e065f;
+}
+
+#main-doc p {
+  width: 90%;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #main-doc {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #main-doc h1 {
+    font-size: 2rem;
+    padding: 10px 10px 10px 0;
+  }
+
+  #main-doc h3 {
+    font-size: 1.5rem;
+    padding: 5px 5px 5px 0;
+    font-weight: bold;
+    color: #3e065f;
+  }
+
+  a.navbar-brand {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  a.navbar-brand {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+}
